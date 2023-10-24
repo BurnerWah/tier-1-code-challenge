@@ -3,6 +3,13 @@ let highScore = 29
 console.log(highScore)
 
 // 2. Make a new empty array called myScrabbleTiles.
+/**
+ * @typedef {Object} ScrabbleTile
+ * @property {string} tile
+ * @property {number} score
+ */
+
+/** @type {ScrabbleTile[]} */
 const myScrabbleTiles = []
 console.log(myScrabbleTiles)
 
