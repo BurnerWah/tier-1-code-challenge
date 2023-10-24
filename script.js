@@ -62,6 +62,8 @@ const myScore = calculateScore(myScrabbleTiles)
 console.log(myScore)
 
 // 8. Check whether or not your score is higher than the highScore. If your score is higher, change highScore to the new high score.
+highScore = Math.max(highScore, myScore)
+console.log(`highScore: ${highScore}`)
 
 // DONE!
 
