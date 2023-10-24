@@ -3,6 +3,8 @@ let highScore = 29
 console.log(highScore)
 
 // 2. Make a new empty array called myScrabbleTiles.
+const myScrabbleTiles = []
+console.log(myScrabbleTiles)
 
 // 3. Put these 6 tile objects into myScrabbleTiles:
 /*
