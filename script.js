@@ -33,6 +33,8 @@ myScrabbleTiles.push(
 console.table(myScrabbleTiles)
 
 // 4. Remove the last tile from myScrabbleTiles and save it in a variable named removedTile.
+const removedTile = myScrabbleTiles.pop()
+console.log(removedTile)
 
 // 5. Add the following new tile to myScrabbleTiles:
 /*
