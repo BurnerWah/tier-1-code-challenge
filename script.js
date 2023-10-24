@@ -40,6 +40,8 @@ console.log(removedTile)
 /*
   { tile: 'F', score : 4 }
 */
+myScrabbleTiles.push({ tile: "F", score: 4 })
+console.table(myScrabbleTiles)
 
 // 6. Complete this function. It needs to be given an array of tile objects. The function will use a for-loop to add up and return the sum of all the scores for a given array of scrabble tiles.
 function calculateScore(tiles) {}
